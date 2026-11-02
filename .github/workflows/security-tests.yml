@@ -31,3 +31,8 @@ jobs:
       - name: Run security tests
         run: |
           PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest -v test_security.py
+          
+      - name: Run security regression tests
+        working-directory: LLM_Security_Regression
+        run: |
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest -v tests/
