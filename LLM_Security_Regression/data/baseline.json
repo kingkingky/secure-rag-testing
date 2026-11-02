@@ -1,0 +1,14 @@
+{
+    "Prompt Injection": {
+        "total_tests": 100,
+        "failed_defense": 2
+    },
+    "Data Leakage": {
+        "total_tests": 100,
+        "failed_defense": 1
+    },
+    "Access Control": {
+        "total_tests": 100,
+        "failed_defense": 0
+    }
+}
